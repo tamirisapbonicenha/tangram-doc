@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Tangram Blog</title>
+        <link>https://tamirisapbonicenha.github.io/tangram/en/blog</link>
+        <description>Tangram Blog</description>
+        <lastBuildDate>Wed, 25 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[New Tangram Documentation]]></title>
+            <link>https://tamirisapbonicenha.github.io/tangram/en/blog/new-tangram-docs</link>
+            <guid>new-tangram-docs</guid>
+            <pubDate>Wed, 25 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[We have a docs site now! It's built with Docusaurus 🦕.]]></description>
+            <content:encoded><![CDATA[<p>We have a docs site now! It's built with <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a> 🦕.</p><p><a href="https://storybook.js.org/" target="_blank" rel="noopener noreferrer">Storybook</a> served us well for a while, but with the growth and evolution of our Design System came the need for a platform where we could communicate better.</p><p>We had a good experience with Docusaurus on <a href="https://front-hub.rdstation.com.br/" target="_blank" rel="noopener noreferrer">FrontHub</a>, it has been meeting all the needs of the project and would meet all the needs of Tangram, so the decision to choose it was very easy.</p><p>You can join and contribute with the documentation, we have a <a href="/tangram/en/docs/contributing/documentation/">complete tutorial</a> with step by step.</p>]]></content:encoded>
+            <category>docs</category>
+            <category>docusaurus</category>
+        </item>
+    </channel>
+</rss>

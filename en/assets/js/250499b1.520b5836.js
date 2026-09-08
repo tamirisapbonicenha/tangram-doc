@@ -1,0 +1,38 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[2510],{54479:(e,t,n)=>{n.d(t,{D:()=>p,Z:()=>d});var o=n(25773),a=n(27378),s=n(67468),r=n(45666);const i=s.ZP.div`
+  margin-bottom: var(--size-spacing-09);
+
+  & > * {
+    margin-bottom: var(--size-spacing-05);
+  }
+
+  ${e=>{let{$columns:t}=e;return t>=2&&s.iv`
+      display: grid;
+      column-gap: var(--size-spacing-05);
+      row-gap: var(--size-spacing-05);
+      grid-template-columns: repeat(${t}, 1fr);
+
+      & > * {
+        margin-bottom: 0;
+      }
+    `}}
+`;const d=function(e){let{children:t,columns:n=1,...s}=e;return a.createElement(r.Z,null,(()=>a.createElement(i,(0,o.Z)({$columns:n},s),t)))};var l=n(89620);const c=(0,s.ZP)(l.Z)`
+  height: 100%;
+
+  p {
+    &:only-child,
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  ${e=>{let{$featured:t}=e;return t&&s.iv`
+      border-color: var(--highlight-border);
+    `}}
+
+  ${e=>{let{$centered:t}=e;return t&&s.iv`
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    `}}
+`;const p=function(e){let{children:t,featured:n=!1,centered:o=!1,className:s}=e;return a.createElement(c,{$featured:n,$centered:o,className:s},t)}},45666:(e,t,n)=>{n.d(t,{Z:()=>s});var o=n(27378),a=n(77524);function s(e){let{children:t,fallback:n}=e;return(0,a.Z)()?o.createElement(o.Fragment,null,t?.()):n??null}},87954:(e,t,n)=>{n.d(t,{Z:()=>h});var o,a=n(25773),s=n(30808),r=n(27378),i=n(67468),d=(n(23615),n(63559)),l=n(75387),c=n(26503);const p=["disabled","as","children","type","kind","size","startIcon","endIcon","ia","loading","fluid"],m=(0,i.ZP)(l.Z).withConfig({displayName:"Button__Root",componentId:"tg-1yZ__sc-7cbhwm-0"})([""]),u=(0,r.forwardRef)(((e,t)=>{let{disabled:n,as:i,children:l,type:h=u.types.button,kind:k=u.kinds.primary,size:y=u.sizes.md,startIcon:f,endIcon:g,ia:T=!1,loading:Z=!1,fluid:x=!1}=e,b=(0,s.Z)(e,p);return r.createElement(m,(0,a.Z)({ref:t,loading:Z,fluid:x,forwardedAs:i,size:y,disabled:n||Z,kind:k,type:h,ia:T},b),Z?r.createElement(c.Z,{size:c.Z.sizes.sm}):T?f||o||(o=r.createElement(d.Z,{title:"IA","aria-hidden":"true"})):f,l,g)}));u.displayName="Button",u.sizes=l.Z.sizes,u.kinds=l.Z.kinds,u.types=l.Z.types;const h=u},108:(e,t,n)=>{n.d(t,{Z:()=>p});var o=n(25773),a=n(30808),s=n(27378),r=n(67468),i=(n(23615),n(75387));const d=["children"],l=r.ZP.div.withConfig({displayName:"ButtonGroup__Root",componentId:"tg-1yZ__sc-y8o0sr-0"})(["display:inline-flex;> "," + ",",> * + *{margin-left:var(--size-spacing-03);}"],i.Z.Style,i.Z.Style),c=(0,s.forwardRef)(((e,t)=>{let{children:n}=e,r=(0,a.Z)(e,d);const i=s.Children.toArray(n).map(((e,t)=>{const n={index:t,tabIndex:0,className:"".concat(e.props.className," button-group__child")};return s.cloneElement(e,Object.assign({},e.props,n,{key:e.key||t}))}));return s.createElement(l,(0,o.Z)({ref:t,role:"group"},r),i)}));c.displayName="ButtonGroup",c.Style=l;const p=c},62162:(e,t,n)=>{n.r(t),n.d(t,{assets:()=>f,contentTitle:()=>k,default:()=>Z,frontMatter:()=>h,metadata:()=>y,toc:()=>g});var o=n(25773),a=n(27378),s=n(35318),r=n(80621),i=n(82544),d=n(54479),l=n(99531),c=n(108),p=n(87954),m=n(64723);const u=function(e){let{kind:t="primary"}=e;const[n,o]=(0,a.useState)(!1),s=()=>{o((e=>!e))};return a.createElement(a.Fragment,null,a.createElement(l.Z,{show:n,title:a.createElement(m.Z,{id:"Toast.Title"},"Toast title"),message:a.createElement(m.Z,{id:"Toast.Message"},"Toast message"),kind:t,onClose:()=>o(!1)}),a.createElement(c.Z,null,a.createElement(p.Z,{kind:p.Z.kinds.secondary,onClick:s,disabled:n},a.createElement(m.Z,{id:"Toast.ShowToastButton"},"Show Toast")),a.createElement(p.Z,{kind:p.Z.kinds.secondary,onClick:s,disabled:!n},a.createElement(m.Z,{id:"Toast.CloseToastButton"},"Close Toast"))))},h={title:"Toast",description:"Toast is a notification displayed at the top of the page, with short, contextual messages."},k=void 0,y={unversionedId:"components/toast",id:"components/toast",title:"Toast",description:"Toast is a notification displayed at the top of the page, with short, contextual messages.",source:"@site/docs/components/toast.md",sourceDirName:"components",slug:"/components/toast",permalink:"/tangram/en/docs/components/toast",draft:!1,editUrl:"https://github.com/ResultadosDigitais/tangram/edit/next/docusaurus/docs/components/toast.md",tags:[],version:"current",frontMatter:{title:"Toast",description:"Toast is a notification displayed at the top of the page, with short, contextual messages."},sidebar:"mySidebar",previous:{title:"Spinner",permalink:"/tangram/en/docs/components/spinner"},next:{title:"DropdownMenu \ud83d\uddd1\ufe0f",permalink:"/tangram/en/docs/components/dropdownmenu"}},f={},g=[{value:"Use of colors",id:"colors",level:2},{value:"Feedback",id:"feedback",level:2}],T={toc:g};function Z(e){let{components:t,...n}=e;return(0,s.kt)("wrapper",(0,o.Z)({},T,n,{components:t,mdxType:"MDXLayout"}),(0,s.kt)(r.Z,{current:"docs",name:"toast",mdxType:"ComponentTab"}),(0,s.kt)("p",null,(0,s.kt)("inlineCode",{parentName:"p"},"Toast")," is a notification displayed at the top of the page, with short, contextual messages."),(0,s.kt)("p",null,"Use for system notifications, when you don't need to interrupt the user's journey. Toast must not block the screen (they are non-modal elements)."),(0,s.kt)("p",null,"In case you need just a title, with few words, use the ",(0,s.kt)("inlineCode",{parentName:"p"},"Toast")," without a message."),(0,s.kt)("p",null,(0,s.kt)("inlineCode",{parentName:"p"},"Toast")," should always float on top of content, including ",(0,s.kt)("inlineCode",{parentName:"p"},"Drawer")," or ",(0,s.kt)("inlineCode",{parentName:"p"},"Modal"),", displayed 32px below the upper edge of the screen and 32px from the right edge of the screen."),(0,s.kt)(d.Z,{mdxType:"CardGrid"},(0,s.kt)(d.D,{centered:!0,mdxType:"CardGridItem"},(0,s.kt)(u,{mdxType:"ExampleToast"}))),(0,s.kt)("h2",{id:"colors"},"Use of colors"),(0,s.kt)("p",null,"The ",(0,s.kt)("strong",{parentName:"p"},"red")," color should be used in critical situations that require full attention, such as deleting data, system exit, disconnection, information loss feedbacks, among others."),(0,s.kt)(d.Z,{mdxType:"CardGrid"},(0,s.kt)(d.D,{centered:!0,mdxType:"CardGridItem"},(0,s.kt)(u,{kind:"danger",mdxType:"ExampleToast"}))),(0,s.kt)("p",null,"The ",(0,s.kt)("strong",{parentName:"p"},"yellow")," color should be used in attention situations, however the action effect is not critical. There is no loss of information or the action can be reversed."),(0,s.kt)(d.Z,{mdxType:"CardGrid"},(0,s.kt)(d.D,{centered:!0,mdxType:"CardGridItem"},(0,s.kt)(u,{kind:"warning",mdxType:"ExampleToast"}))),(0,s.kt)("p",null,"The ",(0,s.kt)("strong",{parentName:"p"},"green")," color should be used in positive feedback situations. It is usually associated with a correct action."),(0,s.kt)(d.Z,{mdxType:"CardGrid"},(0,s.kt)(d.D,{centered:!0,mdxType:"CardGridItem"},(0,s.kt)(u,{kind:"success",mdxType:"ExampleToast"}))),(0,s.kt)("p",null,"The color ",(0,s.kt)("strong",{parentName:"p"},"purple")," should be used for information, elements or support actions, as well as situations related to the help and support of the tool."),(0,s.kt)(d.Z,{mdxType:"CardGrid"},(0,s.kt)(d.D,{centered:!0,mdxType:"CardGridItem"},(0,s.kt)(u,{kind:"help",mdxType:"ExampleToast"}))),(0,s.kt)("p",null,"The ",(0,s.kt)("strong",{parentName:"p"},"primary")," color should be used to inform new features, calling the user to meet and test."),(0,s.kt)(d.Z,{mdxType:"CardGrid"},(0,s.kt)(d.D,{centered:!0,mdxType:"CardGridItem"},(0,s.kt)(u,{kind:"primary",mdxType:"ExampleToast"}))),(0,s.kt)("h2",{id:"feedback"},"Feedback"),(0,s.kt)(i.Z,{mdxType:"FeedbackBlock"}))}Z.isMDXComponent=!0}}]);
