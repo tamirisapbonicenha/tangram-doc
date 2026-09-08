@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://tamirisapbonicenha.github.io/tangram/en/blog</id>
+    <id>https://tamirisapbonicenha.github.io/tangram-doc/en/blog</id>
     <title>Tangram Blog</title>
     <updated>2021-08-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://tamirisapbonicenha.github.io/tangram/en/blog"/>
+    <link rel="alternate" href="https://tamirisapbonicenha.github.io/tangram-doc/en/blog"/>
     <subtitle>Tangram Blog</subtitle>
-    <icon>https://tamirisapbonicenha.github.io/tangram/en/img/favicon.ico</icon>
+    <icon>https://tamirisapbonicenha.github.io/tangram-doc/en/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[New Tangram Documentation]]></title>
         <id>new-tangram-docs</id>
-        <link href="https://tamirisapbonicenha.github.io/tangram/en/blog/new-tangram-docs"/>
+        <link href="https://tamirisapbonicenha.github.io/tangram-doc/en/blog/new-tangram-docs"/>
         <updated>2021-08-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We have a docs site now! It's built with Docusaurus 🦕.]]></summary>
-        <content type="html"><![CDATA[<p>We have a docs site now! It's built with <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a> 🦕.</p><p><a href="https://storybook.js.org/" target="_blank" rel="noopener noreferrer">Storybook</a> served us well for a while, but with the growth and evolution of our Design System came the need for a platform where we could communicate better.</p><p>We had a good experience with Docusaurus on <a href="https://front-hub.rdstation.com.br/" target="_blank" rel="noopener noreferrer">FrontHub</a>, it has been meeting all the needs of the project and would meet all the needs of Tangram, so the decision to choose it was very easy.</p><p>You can join and contribute with the documentation, we have a <a href="/tangram/en/docs/contributing/documentation/">complete tutorial</a> with step by step.</p>]]></content>
+        <content type="html"><![CDATA[<p>We have a docs site now! It's built with <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a> 🦕.</p><p><a href="https://storybook.js.org/" target="_blank" rel="noopener noreferrer">Storybook</a> served us well for a while, but with the growth and evolution of our Design System came the need for a platform where we could communicate better.</p><p>We had a good experience with Docusaurus on <a href="https://front-hub.rdstation.com.br/" target="_blank" rel="noopener noreferrer">FrontHub</a>, it has been meeting all the needs of the project and would meet all the needs of Tangram, so the decision to choose it was very easy.</p><p>You can join and contribute with the documentation, we have a <a href="/tangram-doc/en/docs/contributing/documentation/">complete tutorial</a> with step by step.</p>]]></content>
         <author>
             <name>Bruno Nardini</name>
             <uri>https://github.com/megatroom</uri>
